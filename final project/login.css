@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('pexels-cottonbro-6770456.jpg');
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    background: #1f1f1f;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+.logo img {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 2px;
+}
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+}
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background: rgb(249, 245, 245);
+    border: none;
+    border-radius: 4px;
+    color: rgb(18, 15, 15);
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+.login-form button:hover {
+    background: #555;
+}
+.register {
+    margin-top: 15px;
+}
+.register a {
+    color: grey;
+    text-decoration: none;
+}
+.register a:hover {
+    text-decoration: underline;
+}
